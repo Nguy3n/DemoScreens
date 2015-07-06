@@ -24,6 +24,14 @@
             android:name=".DDLFormActivity"
             android:label="@string/title_activity_ddlform" >
         </activity>
+        <activity
+            android:name=".DDLLI"
+            android:label="@string/title_activity_ddlli" >
+        </activity>
+        <activity
+            android:name=".DDLListActivity"
+            android:label="@string/title_activity_ddllist" >
+        </activity>
     </application>
 
 </manifest>

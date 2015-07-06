@@ -5,4 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_user_portrait">UserPortraitActivity</string>
     <string name="title_activity_ddlform">DDLFormActivity</string>
+    <string name="title_activity_ddlli">DDLLI</string>
+    <string name="title_activity_ddllist">DDLListActivity</string>
 </resources>

@@ -16,6 +16,7 @@ public class UserPortraitActivity extends ActionBarActivity implements View.OnCl
         setContentView(R.layout.activity_user_portrait);
 
         findViewById(R.id.new_issue).setOnClickListener(this);
+        findViewById(R.id.list_issue).setOnClickListener(this);
     }
 
     /*@Override
@@ -42,6 +43,12 @@ public class UserPortraitActivity extends ActionBarActivity implements View.OnCl
 
     @Override
     public void onClick(View v) {
-        startActivity(new Intent(this, DDLFormActivity.class));
+        if (v.getId() == R.id.new_issue) {
+            startActivity(new Intent(this, DDLFormActivity.class));
+        } else {
+            startActivity(new Intent(this, DDLListActivity.class));
+        }
+
+
     }
 }

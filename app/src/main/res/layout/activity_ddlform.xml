@@ -10,10 +10,11 @@
     tools:context="com.liferay.demoscreens.DDLFormActivity">
 
     <com.liferay.mobile.screens.ddl.form.DDLFormScreenlet
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/ddlform_demo"
         liferay:layoutId="@layout/ddl_form_default"
         liferay:recordSetId="@integer/liferay_recordset_id"
-        liferay:structureId="@integer/liferay_structure_id"/>
+        liferay:structureId="@integer/liferay_structure_id"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"></com.liferay.mobile.screens.ddl.form.DDLFormScreenlet>
 
 </RelativeLayout>
