@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/classes-c17d5c7605679b02a97ce0d17a27349fc8abe8da.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/de.keyboardsurfer.android.widget/crouton/1.8.5/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/classes-8ddc2f4ad6794de16938b3371d7ef371f5943d7f.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-7183c32078800a06e25ec7f39e718189fb8a6fb4.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/classes-90689821e9b830f512bc8b4bea9b3c4aec83f918.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/classes-c38dd34e02ae7acea22e4c3a933da616943342a6.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.0/7ff0e000d1e27e356567f56c92af3b8ab912636f/picasso-2.5.0.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/picasso-2.5.0-cb79c4ed3c6747ab6b8cef097287ab24329eb915.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/.gradle/caches/modules-2/files-2.1/com.liferay.mobile/liferay-android-sdk/6.2.0.18/d8a802e7c2f9b4af085c50e87a1220989d81dcfe/liferay-android-sdk-6.2.0.18.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="d8a802e7c2f9b4af085c50e87a1220989d81dcfe">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/liferay-android-sdk-6.2.0.18-79f85ddfdea9de199000ea40b189c5007bf1ba18.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-b29925a68ea245e02a17318e030cb5841045e1f2.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="e02368d7b56c0c376f227378a4f77de62864d020">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/httpmime-4.3.3-d6b0235bee34bf7b16466dfaa02d6bb824181828.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.liferay.mobile/liferay-screens/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="4313d3dd1bc8baeaba86e287065c047bd1b8f748">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/classes-afc039b2f945572e6dd8b2a16e7b93772d896f72.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.3/39ba75b570e5f1535356e8a1bf920b1c6cc83a9a/httpclient-android-4.3.3.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="39ba75b570e5f1535356e8a1bf920b1c6cc83a9a">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/httpclient-android-4.3.3-08ce9a62dcf9d70b465a872e1cf882059b38a78e.jar" />
+    </item>
+    <item
+        jar="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/toeffen/Documents/DemoScreens/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-d746c4afa55b48d7e6166e600369ae90b0620e2f.jar" />
+    </item>
+
+</items>

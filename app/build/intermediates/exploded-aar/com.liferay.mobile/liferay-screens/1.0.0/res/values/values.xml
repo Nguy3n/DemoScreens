@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="string" name="anonymousApiPassword"/>
+    <attr format="string" name="anonymousApiUserName"/>
+    <attr format="enum" name="authMethod">
+		<enum name="email" value="0"/>
+		<enum name="screen_name" value="1"/>
+		<enum name="user_id" value="2"/>
+	</attr>
+    <attr format="boolean" name="autoLoad"/>
+    <attr format="integer" name="companyId"/>
+    <attr format="enum" name="credentialsStore">
+		<enum name="none" value="0"/>
+		<enum name="auto" value="1"/>
+		<enum name="shared_preferences" value="2"/>
+	</attr>
+    <attr format="integer" name="firstPageSize"/>
+    <attr format="integer" name="groupId"/>
+    <attr format="reference" name="layoutId"/>
+    <attr format="integer" name="pageSize"/>
+    <attr format="integer" name="recordSetId"/>
+    <attr format="integer" name="userId"/>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="default_clear_blue">#FFF0FFFF</color>
+    <color name="default_clear_red">#FFFFDCC8</color>
+    <color name="default_dark_gray">#FF919394</color>
+    <color name="default_green">#FF5AD427</color>
+    <color name="default_light_blue">#DD00B8E0</color>
+    <color name="default_light_gray">#FFD5D5D7</color>
+    <color name="default_primary_blue">#FF00B8E0</color>
+    <color name="default_pure_red">#FFFF0000</color>
+    <color name="default_red">#FFE00000</color>
+    <declare-styleable name="AssetListScreenlet"><attr name="layoutId"/><attr name="autoLoad"/><attr name="groupId"/><attr format="integer" name="classNameId"/><attr name="firstPageSize"/><attr name="pageSize"/></declare-styleable>
+    <declare-styleable name="DDLFormScreenlet"><attr name="layoutId"/><attr name="groupId"/><attr format="boolean" name="autoScrollOnValidation"/><attr format="integer" name="structureId"/><attr format="integer" name="recordId"/><attr name="recordSetId"/><attr name="userId"/><attr name="autoLoad"/><attr format="string" name="filePrefix"/><attr format="integer" name="repositoryId"/><attr format="integer" name="folderId"/><attr format="boolean" name="showSubmitButton"/><attr format="reference" name="checkboxFieldLayoutId"/><attr format="reference" name="dateFieldLayoutId"/><attr format="reference" name="numberFieldLayoutId"/><attr format="reference" name="radioFieldLayoutId"/><attr format="reference" name="selectFieldLayoutId"/><attr format="reference" name="textFieldLayoutId"/><attr format="reference" name="textAreaFieldLayoutId"/><attr format="reference" name="documentFieldLayoutId"/></declare-styleable>
+    <declare-styleable name="DDLListScreenlet"><attr name="layoutId"/><attr name="autoLoad"/><attr name="recordSetId"/><attr name="userId"/><attr format="string" name="labelFields"/><attr name="firstPageSize"/><attr name="pageSize"/></declare-styleable>
+    <declare-styleable name="ForgotPasswordScreenlet"><attr name="layoutId"/><attr name="anonymousApiUserName"/><attr name="anonymousApiPassword"/><attr name="authMethod"/><attr name="companyId"/></declare-styleable>
+    <declare-styleable name="LoginScreenlet"><attr name="layoutId"/><attr name="authMethod"/><attr name="companyId"/><attr name="credentialsStore"/></declare-styleable>
+    <declare-styleable name="ModalProgressBar"><attr format="reference" name="actionViewId"/></declare-styleable>
+    <declare-styleable name="SignUpScreenlet"><attr name="layoutId"/><attr name="companyId"/><attr name="anonymousApiUserName"/><attr name="anonymousApiPassword"/><attr format="boolean" name="autoLogin"/><attr name="credentialsStore"/></declare-styleable>
+    <declare-styleable name="UserPortraitScreenlet"><attr name="layoutId"/><attr name="autoLoad"/><attr format="boolean" name="male"/><attr format="integer" name="portraitId"/><attr format="string" name="uuid"/><attr name="userId"/><attr format="boolean" name="editable"/></declare-styleable>
+    <declare-styleable name="WebContentDisplayScreenlet"><attr name="layoutId"/><attr name="autoLoad"/><attr name="groupId"/><attr format="boolean" name="javascriptEnabled"/><attr format="string" name="articleId"/></declare-styleable>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_dimens.xml -->
+    <eat-comment/>
+    <dimen name="ddlform_field_padding">8dp</dimen>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_edit_text_drawable_padding">15dp</dimen>
+    <dimen name="default_edit_text_padding">10dp</dimen>
+    <dimen name="default_list_padding">8dp</dimen>
+    <dimen name="default_screenlet_padding">50dp</dimen>
+    <dimen name="default_text_view_padding">10dp</dimen>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/server_context.xml -->
+    <eat-comment/>
+    <integer name="liferay_company_id">10154</integer>
+    <integer name="liferay_group_id">10181</integer>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/userportrait_default_values.xml -->
+    <eat-comment/>
+    <integer name="userportrait_default_border_radius">10</integer>
+    <integer name="userportrait_default_border_width">3</integer>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AssetListScreenlet_defaultLayout">asset_list_default</string>
+    <string name="DDLFormScreenlet_defaultLayout">ddlform_default</string>
+    <string name="DDLListScreenlet_defaultLayout">ddl_list_default</string>
+    <string name="ForgotPasswordScreenlet_defaultLayout">forgotpassword_default</string>
+    <string name="LoginScreenlet_defaultLayout">login_default</string>
+    <string name="SignUpScreenlet_defaultLayout">sign_up_default</string>
+    <string name="UserPortraitScreenlet_defaultLayout">userportrait_default</string>
+    <string name="WebContentDisplayScreenlet_defaultLayout">webcontentdisplay_default</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/forgot_password_default_strings.xml -->
+    <eat-comment/>
+    <string name="account_icon">account icon</string>
+    <string name="check_your_inbox">Check your email inbox.</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="creating_file_error">Error creating file</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/list_default_strings.xml -->
+    <eat-comment/>
+    <string name="default_empty_value">...</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/sign_up_default_strings.xml -->
+    <eat-comment/>
+    <string name="email_address">Email Address</string>
+    <string name="first_name">First Name</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="hint_select">Select an option</string>
+    <string name="invalid">Invalid value</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/sign_up_default_strings.xml -->
+    <eat-comment/>
+    <string name="last_name">Last Name</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/server_context.xml -->
+    <eat-comment/>
+    <string name="liferay_server">http://192.168.56.1:8080</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/list_default_strings.xml -->
+    <eat-comment/>
+    <string name="list_icon">list icon</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/webview_strings.xml -->
+    <eat-comment/>
+    <string name="loading_article_error">Error loading article</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="loading_form_error">Error loading DDLForm</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/list_default_strings.xml -->
+    <eat-comment/>
+    <string name="loading_list_error">Error loading list</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/login_default_strings.xml -->
+    <eat-comment/>
+    <string name="login">Login</string>
+    <string name="login_error">Could not login</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="open">Open:</string>
+    <string name="origin_of_file">Choose origin of file</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/login_default_strings.xml -->
+    <eat-comment/>
+    <string name="password">Password</string>
+    <string name="password_icon">password icon</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/forgot_password_default_strings.xml -->
+    <eat-comment/>
+    <string name="password_request_error">Could not send password</string>
+    <string name="password_reset_sent">New password reset link sent.</string>
+    <string name="password_sent">New password generated.</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="record_a_video">Record a video</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/forgot_password_default_strings.xml -->
+    <eat-comment/>
+    <string name="request_password">RESET PASSWORD</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="required_value">Required value</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/forgot_password_default_strings.xml -->
+    <eat-comment/>
+    <string name="screen_name">Screen Name</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="select_a_file">Select a file</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/login_default_strings.xml -->
+    <eat-comment/>
+    <string name="sign_in">SIGN IN</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/sign_up_default_strings.xml -->
+    <eat-comment/>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_error">Could not sign up </string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/ddlform_strings.xml -->
+    <eat-comment/>
+    <string name="submit">SUBMIT</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="uploading_document_error">Error uploading document</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/login_default_strings.xml -->
+    <eat-comment/>
+    <string name="user_login_icon">user login icon</string>
+    <string name="user_portrait">user portrait</string>
+    <!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="base_default_button" parent="android:Widget.Button">
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:layout_marginTop">5dp</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/default_button_selector</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:padding">10dp</item>
+	</style>
+    <style name="base_default_checkbox">
+		<item name="android:padding">@dimen/default_edit_text_padding</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+		<item name="android:theme">?attr/theme</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+    <style name="base_default_dialog_button" parent="default_text_view">
+		<item name="android:layout_weight">1</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">?attr/colorPrimary</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:minHeight">48dp</item>
+		<item name="android:background">?android:attr/selectableItemBackground</item>
+	</style>
+    <style name="base_default_edit_text" parent="android:Widget.EditText">
+		<item name="android:paddingTop">@dimen/default_edit_text_padding</item>
+		<item name="android:paddingBottom">@dimen/default_edit_text_padding</item>
+		<item name="android:paddingLeft">@dimen/default_edit_text_drawable_padding</item>
+		<item name="android:paddingRight">@dimen/default_edit_text_padding</item>
+		<item name="android:background">@drawable/default_edit_text_selector</item>
+		<item name="android:drawablePadding">@dimen/default_edit_text_drawable_padding</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textColorHint">@color/default_light_gray</item>
+	</style>
+    <style name="base_default_text_view" parent="android:Widget.TextView">
+		<item name="android:paddingBottom">@dimen/default_text_view_padding</item>
+		<item name="android:paddingRight">@dimen/default_text_view_padding</item>
+		<item name="android:paddingTop">@dimen/default_text_view_padding</item>
+	</style>
+    <style name="default_button" parent="base_default_button"/>
+    <style name="default_checkbox" parent="base_default_checkbox"/>
+    <style name="default_date_picker" parent="Theme.AppCompat.Light">
+		<item name="colorAccent">@color/default_light_blue</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+    <style name="default_dialog_button" parent="base_default_dialog_button"/>
+    <style name="default_edit_text" parent="base_default_edit_text"/>
+    <style name="default_font">
+		<item name="android:typeface">normal</item>
+	</style>
+    <style name="default_list_item">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:paddingBottom">@dimen/default_list_padding</item>
+		<item name="android:paddingLeft">@dimen/default_list_padding</item>
+		<item name="android:paddingRight">@dimen/default_list_padding</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:drawableRight">@drawable/default_arrow</item>
+		<item name="android:drawableEnd">@drawable/default_arrow</item>
+	</style>
+    <style name="default_screenlet">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:paddingLeft">@dimen/default_screenlet_padding</item>
+		<item name="android:paddingTop">@dimen/default_screenlet_padding</item>
+		<item name="android:paddingRight">@dimen/default_screenlet_padding</item>
+		<item name="android:paddingBottom">0dp</item>
+	</style>
+    <style name="default_text_view" parent="base_default_text_view"/>
+    <style name="default_theme" parent="Theme.AppCompat.Light">
+		<item name="colorPrimary">@color/default_primary_blue</item>
+		<item name="colorAccent">@color/default_light_blue</item>
+		<item name="android:textColorPrimary">@color/default_dark_gray</item>
+		<item name="android:textColorSecondary">@color/default_light_gray</item>
+		<item name="android:textViewStyle">@style/default_text_view</item>
+		<item name="android:editTextStyle">@style/default_edit_text</item>
+		<item name="android:buttonStyle">@style/default_button</item>
+	</style>
+    <style name="white_theme" parent="Theme.AppCompat.Light">
+		<item name="colorAccent">@android:color/white</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+</resources>

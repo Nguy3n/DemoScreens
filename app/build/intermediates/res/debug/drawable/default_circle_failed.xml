@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:shape="oval">
+	<corners android:radius="10dip"/>
+	<stroke
+		android:width="2dip"
+		android:color="@color/default_pure_red"/>
+	<solid android:color="@color/default_clear_red"/>
+	<size
+		android:width="31dp"
+		android:height="31dp"/>
+</shape><!-- From: file:/Users/aelian/liferay-screens/android/library/core/src/main/res/drawable/default_circle_failed.xml --><!-- From: file:/Users/toeffen/Documents/DemoScreens/app/build/intermediates/exploded-aar/com.liferay.mobile/liferay-screens/1.0.0/res/drawable/default_circle_failed.xml -->
